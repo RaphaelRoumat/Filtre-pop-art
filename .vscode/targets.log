@@ -5,9 +5,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Mon May 30 22:14:45 2022
+# Make data base, printed on Tue May 31 14:50:42 2022
 
 # Variables
 
@@ -22,7 +21,7 @@ USERPROFILE = C:\Users\utilisateur
 # environment
 LOCALAPPDATA = C:\Users\utilisateur\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a38b5c90-d968-4d5e-9e1f-58683e33c932-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f383bf7e-c5ec-4516-9348-e32c27981f87-sock
 # environment
 VSCODE_CWD = F:\Desktop\Programmation\Projets_CPP\PROJETS\Pop art generator
 # environment
@@ -42,7 +41,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16896_ABXWVWOUFUDDNMOD
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2700_UJUNWNREVSORUSGM
 # makefile (from 'Makefile', line 83)
 ETAGS = etags
 # environment
@@ -110,7 +109,7 @@ PT8HOME = C:\Program Files\Cisco Packet Tracer 8.0
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 16896
+VSCODE_PID = 2700
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -118,7 +117,8 @@ VSCODE_PID = 16896
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{},"_languagePackSupport":true}
+VSCOD 
+E_NLS_CONFIG = {"locale":"fr","availableLanguages":{},"_languagePackSupport":true}
 # environment
 INTELLIJ IDEA EDUCATIONAL EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.1\bin;
 # default
@@ -260,7 +260,7 @@ SOURCES = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)/*,$(SRCEXTS))))
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
 # variable set hash-table stats:
-# Load=124/1024=12%, Rehash=0, Collisions=29/200=14%
+# Load=124/1024=12%, Rehash=0, Collisions=31/206=15%
 
 # Pattern-specific Variable Values
 
@@ -269,10 +269,10 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
 # Directories
 
 # include (key F:/Desktop/Programmation/Projets_CPP/PROJETS/Pop art generator/include, mtime 1625242547): 10 files, no impossibilities.
-# src (key F:/Desktop/Programmation/Projets_CPP/PROJETS/Pop art generator/src, mtime 1644849103): 16 files, no impossibilities.
-# . (key F:/Desktop/Programmation/Projets_CPP/PROJETS/Pop art generator, mtime 1653963192): 8 files, no impossibilities.
+# src (key F:/Desktop/Programmation/Projets_CPP/PROJETS/Pop art generator/src, mtime 1654022787): 16 files, no impossibilities.
+# . (key F:/Desktop/Programmation/Projets_CPP/PROJETS/Pop art generator, mtime 1654022843): 10 files, no impossibilities.
 
-# 34 files, no impossibilities in 3 directories.
+# 36 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -295,23 +295,30 @@ distclean: clean
 #  recipe to execute (from 'Makefile', line 162):
 	$(RM) $(DEPS) TAGS
 
-# Not a target:
-src/SDL2_imageFilter.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+src/SDL2_imageFilter.o: src/SDL2_imageFilter.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/SDL2_imageFilter'
+#  Last modified 2021-07-03 11:26:10
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 131):
+	$(COMPILE.cxx) $< -o $@
 
 # Not a target:
 src/SDL2_gfxPrimitives.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2021-06-17 17:07:35
+#  File has been updated.
+#  Successfully updated.
 
-# Not a target:
-src/SDL2_rotozoom.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+src/SDL2_rotozoom.o: src/SDL2_rotozoom.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/SDL2_rotozoom'
+#  Last modified 2021-07-03 11:26:14
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 131):
+	$(COMPILE.cxx) $< -o $@
 
 # Not a target:
 Makefile:
@@ -328,9 +335,10 @@ objs: src/Logic.o src/RenderWindow.o src/SDL2_framerate.o src/SDL2_gfxPrimitives
 
 # Not a target:
 src/main.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2022-05-31 14:46:11
+#  File has been updated.
+#  Successfully updated.
 
 clean:
 #  Phony target (prerequisite of .PHONY).
@@ -342,49 +350,36 @@ clean:
 
 # Not a target:
 src/SDL2_rotozoom.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2021-06-16 11:53:20
+#  File has been updated.
+#  Successfully updated.
 
 src/Logic.o: src/Logic.cpp
-#  Implicit rule search has been done.
+#  
+ Implicit rule search has been done.
 #  Implicit/static pattern stem: 'src/Logic'
-#  Last modified 2022-02-14 09:31:43
+#  Last modified 2022-05-31 14:46:27
 #  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := src/Logic.o
-# automatic
-# * := src/Logic
-# automatic
-# < := src/Logic.cpp
-# automatic
-# + := src/Logic.cpp
-# automatic
-# % := 
-# automatic
-# ^ := src/Logic.cpp
-# a 
-utomatic
-# ? := src/Logic.cpp
-# automatic
-# | := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=2/19=11%
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 131):
 	$(COMPILE.cxx) $< -o $@
 
 # Not a target:
 src/SDL2_imageFilter.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2021-06-16 11:56:25
+#  File has been updated.
+#  Successfully updated.
 
-# Not a target:
-src/main.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+src/main.o: src/main.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/main'
+#  Last modified 2022-05-31 14:46:23
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 131):
+	$(COMPILE.cxx) $< -o $@
 
 # Not a target:
 include/RenderWindow.hpp:
@@ -412,7 +407,7 @@ all: bin/executable
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/15=0%
 
 help:
 #  Phony target (prerequisite of .PHONY).
@@ -437,11 +432,14 @@ help:
 	@echo
 	@echo 'Report bugs to <whyglinux AT gmail DOT com>.'
 
-# Not a target:
-src/SDL2_gfxPrimitives.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+src/SDL2_gfxPrimitives.o: src/SDL2_gfxPrimitives.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/SDL2_gfxPrimitives'
+#  Last modified 2021-07-03 11:26:07
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 131):
+	$(COMPILE.cxx) $< -o $@
 
 show:
 #  Phony target (prerequisite of .PHONY).
@@ -462,9 +460,10 @@ show:
 
 # Not a target:
 src/SDL2_framerate.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2021-06-16 11:53:34
+#  File has been updated.
+#  Successfully updated.
 
 yolo:
 #  Implicit rule search has not been done.
@@ -481,14 +480,15 @@ include/SDL2_imageFilter.h:
 
 # Not a target:
 src/RenderWindow.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2022-05-13 10:54:29
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 src/Logic.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-02-14 09:33:35
+#  Last modified 2022-05-30 22:27:52
 #  File has been updated.
 #  Successfully updated.
 
@@ -504,19 +504,39 @@ include/Logic.hpp:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-src/SDL2_framerate.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+src/SDL2_framerate.o: src/SDL2_framerate.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/SDL2_framerate'
+#  Last modified 2021-07-03 11:26:11
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 131):
+	$(COMPILE.cxx) $< -o $@
 
 bin/executable: src/Logic.o src/RenderWindow.o src/SDL2_framerate.o src/SDL2_gfxPrimitives.o src/SDL2_imageFilter.o src/SDL2_rotozoom.o src/main.o
 #  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
+# automatic
+# @ := bin/executable
+# automatic
+# * := 
+# automatic
+# < := src/Logic.o
+# automatic
+# + := src/Logic.o src/RenderWindow.o src/SDL2_framerate.o src/SDL2_gfxPrimitives.o src/SDL2_imageFilter.o src/SDL2_rotozoom.o src/main.o
+# automatic
+# % := 
+# automatic
+# ^ := src/Logic.o src/RenderWindow.o src/SDL2_framerate.o src/SDL2_gfxPrimitives.o src/SDL2_imageFilter.o src/SDL2_rotozoom.o src/main.o
+# automatic
+# ? := src/Logic.o src/RenderWindow.o src/SDL2_framerate.o src/SDL2_gfxPrimitives.o src/SDL2_imageFilter.o src/SDL2_rotozoom.o src/main.o
+# automatic
+# | := 
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+# Load=8/32=25%, Rehash=0, Collisions=13/25=52%
 #  recipe to execute (from 'Makefile', line 148):
 	$(LINK.cxx) $(OBJS) $(MY_LIBS) -o $@
 	@echo Type ./$@ to execute the program.
@@ -529,14 +549,18 @@ ctags: include/SDL2_GFX.h include/SDL2_framerate.h include/SDL2_gfxPrimitives.h 
 #  recipe to execute (from 'Makefile', line 139):
 	$(CTAGS) $(CTAGSFLAGS) $(HEADERS) $(SOURCES)
 
-# Not a target:
-src/RenderWindow.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+src/RenderWindow.o: src/RenderWindow.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/RenderWindow'
+#  Last modified 2022-05-31 14:46:25
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 131):
+	$(COMPILE.cxx) $< -o $@
 
 .SUFFIXES:
-#  Implicit rule search has not been done.
+#  Implicit rule search has not 
+ been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -572,19 +596,19 @@ include/SDL2_gfxPrimitives_font.h:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=36/1024=4%, Rehash=0, Collisions=0/114=0%
+# Load=36/1024=4%, Rehash=0, Collisions=0/139=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 70 / storage = 1004 B / avg = 14 B
-# current buf: size = 8174 B / used = 1004 B / count = 70 / avg = 14 B
+# strcache buffers: 1 (0) / strings = 84 / storage = 1245 B / avg = 14 B
+# current buf: size = 8174 B / used = 1245 B / count = 84 / avg = 14 B
 
-# strcache performance: lookups = 129 / hit rate = 45%
+# strcache performance: lookups = 156 / hit rate = 46%
 # hash-table stats:
-# Load=70/8192=1%, Rehash=0, Collisions=0/129=0%
-# Finished Make data base on Mon May 30 22:14:45 2022
+# Load=84/8192=1%, Rehash=0, Collisions=0/156=0%
+# Finished Make data base on Tue May 31 14:50:42 2022
 
  

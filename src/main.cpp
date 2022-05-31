@@ -3,13 +3,16 @@
 #include <SDL2/SDL_ttf.h>
 #include <iostream>
 #include <string.h>
+#include <sstream>
 #include "RenderWindow.hpp"
 #include "Logic.hpp"
+#include "stdlib.h"
 
 typedef std::string String;
 
 int main(int argc, char *args[])
-{ 
+{
+    srand(time(0));
     /* Iniatilisation de SDL */
     if (SDL_Init(SDL_INIT_VIDEO))
     {
@@ -26,18 +29,34 @@ int main(int argc, char *args[])
 
     RenderWindow window("Générateur de pop art");
 
-    std::cout << "Image: ";
     String path;
+    std::cout << "Image: ";
     std::cin >> path;
 
-    SDL_Surface * surface = window.loadSurface(path.c_str());
+    int color_count;
+    std::cout << "Number of colors: ";
+    std::cin >> color_count;
 
-    Logic logic(surface, 3);
+    int image_count;
+    std::cout << "Number of image to generate: ";
+    std::cin >> image_count;
 
-    logic.GeneratePopArt();
-    IMG_SavePNG(surface, "result.png");
-    SDL_Texture * texture = window.loadTextureFromSurface(surface, SDL_TEXTUREACCESS_TARGET);
     
+    SDL_Texture *texture;
+    SDL_Surface *surface;
+
+    for (int i = 0; i < image_count; i++)
+    {
+        surface = window.loadSurface(path.c_str());
+        Logic logic(surface, color_count);
+        logic.GeneratePopArt();
+        std::ostringstream stringStream;
+        stringStream << "save/result" << i << ".png";
+        std::string copyOfStr = stringStream.str();
+        IMG_SavePNG(surface, copyOfStr.c_str());
+    }
+
+    texture = window.loadTextureFromSurface(surface, SDL_TEXTUREACCESS_TARGET);
 
     bool running = true;
     SDL_Event event;
@@ -46,22 +65,19 @@ int main(int argc, char *args[])
     {
         while (SDL_PollEvent(&event))
         {
-            switch(event.type)
+            switch (event.type)
             {
-                case SDL_QUIT :
-                    running = false;
-                    break;
-                
-                default:
-                    break;
+            case SDL_QUIT:
+                running = false;
+                break;
 
+            default:
+                break;
             }
-            
         }
-         window.clear();
-         window.render(texture);
-         window.display();
-        
+        window.clear();
+        window.render(texture);
+        window.display();
     }
 
     window.CleanUp();

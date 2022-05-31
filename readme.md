@@ -18,4 +18,4 @@ L'utilisateur donne une image de départ et un nombre de couleurs à utiliser. L
 
  |   Image de départ   |  Résultat   |   Résultat   |
  | :----: | :----: | :----: |
-| ![Image de départ](res/raphael.jpg) | ![Résultat 1](bin/save/1.png)  | ![Résultat 1](bin/save/2.png) |
+| ![Image de départ](res/raphael.jpg) | ![Résultat 1](res/1.png)  | ![Résultat 1](res/2.png) |

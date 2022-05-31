@@ -136,7 +136,6 @@ std::vector<Uint8> Logic::findQuartiles()
 
 std::vector<SDL_Color> Logic::generateColors()
 {
-    srand(time(0)); // Initialize random number generator.
     std::vector<SDL_Color> colors;
     SDL_Color color = {0, 0, 0};
 
