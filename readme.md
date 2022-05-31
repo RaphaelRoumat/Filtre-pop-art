@@ -1,4 +1,4 @@
-# Générateur de pop art
+# Filtre de pop art
 
 >Auteur: Raphaël Roumat
 
