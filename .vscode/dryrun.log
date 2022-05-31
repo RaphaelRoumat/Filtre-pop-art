@@ -1,0 +1,15 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'F:/Desktop/Programmation/Projets_CPP/PROJETS/Pop art generator'
+g++  -g -O2 -Wall -std=c++17 -m64 -c -I include -I C:/SDL2-w64/include src/Logic.cpp -o src/Logic.o
+ 
+g++  -g -O2 -Wall -std=c++17 -m64 -c -I include -I C:/SDL2-w64/include src/RenderWindow.cpp -o src/RenderWindow.o
+g++  -g -O2 -Wall -std=c++17 -m64 -c -I include -I C:/SDL2-w64/include src/SDL2_framerate.cpp -o src/SDL2_framerate.o
+g++  -g -O2 -Wall -std=c++17 -m64 -c -I include -I C:/SDL2-w64/include src/SDL2_gfxPrimitives.cpp -o src/SDL2_gfxPrimitives.o
+g++  -g -O2 -Wall -std=c++17 -m64 -c -I include -I C:/SDL2-w64/include src/SDL2_imageFilter.cpp -o src/SDL2_imageFilter.o
+ 
+g++  -g -O2 -Wall -std=c++17 -m64 -c -I include -I C:/SDL2-w64/include src/SDL2_rotozoom.cpp -o src/SDL2_rotozoom.o
+g++  -g -O2 -Wall -std=c++17 -m64 -c -I include -I C:/SDL2-w64/include src/main.cpp -o src/main.o
+g++  -g -O2 -Wall -std=c++17 -m64  src/Logic.o src/RenderWindow.o src/SDL2_framerate.o src/SDL2_gfxPrimitives.o src/SDL2_imageFilter.o src/SDL2_rotozoom.o src/main.o -L C:/SDL2-w64/lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -o bin/executable
+echo Type ./bin/executable to execute the program.
+make: Leaving directory 'F:/Desktop/Programmation/Projets_CPP/PROJETS/Pop art generator'
+ 

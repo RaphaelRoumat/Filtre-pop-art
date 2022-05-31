@@ -1,0 +1,590 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Mon May 30 22:14:45 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Java11JDK\jdk-11.0.10.9-hotspot
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\utilisateur
+# environment
+LOCALAPPDATA = C:\Users\utilisateur\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a38b5c90-d968-4d5e-9e1f-58683e33c932-sock
+# environment
+VSCODE_CWD = F:\Desktop\Programmation\Projets_CPP\PROJETS\Pop art generator
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\Windows
+# makefile (from 'Makefile', line 64)
+HDREXTS = .h .hpp
+# makefile (from 'Makefile', line 49)
+SRCDIRS = src include
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+PSMODULEPATH = F:\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16896_ABXWVWOUFUDDNMOD
+# makefile (from 'Makefile', line 83)
+ETAGS = etags
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 84)
+ETAGSFLAGS = 
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\utilisateur\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+CMAKE_GENERATOR = MinGW Makefiles
+# environment
+TMP = C:\Users\UTILIS~1\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile (from 'Makefile', line 36)
+MY_CFLAGS = 
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile (from 'Makefile', line 54)
+PROGRAM = bin/executable
+# makefile (from 'Makefile', line 110)
+COMPILE.c = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) -c $(INCLUDIR)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\utilisateur\OneDrive
+# makefile
+CURDIR := F:/Desktop/Programmation/Projets_CPP/PROJETS/Pop art generator
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+PT8HOME = C:\Program Files\Cisco Packet Tracer 8.0
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 16896
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+INTELLIJ IDEA EDUCATIONAL EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.1\bin;
+# default
+MAKE_HOST := Windows32
+# makefile (from 'Makefile', line 107)
+OBJS = $(addsuffix .o, $(basename $(SOURCES)))
+# makefile (from 'Makefile', line 112)
+LINK.c = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) $(LDFLAGS)
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\utilisateur
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 105)
+HEADERS = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)/*,$(HDREXTS))))
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;F:\Programmes\Python 3.8.5\Scripts\;F:\Programmes\Python 3.8.5\;F:\Programmes\ImageMagick;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\mingw64\bin;C:\Program Files\CMake\bin;C:\vcpkg;C:\Program Files\Git\cmd;C:\7z command line;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64;C:\ProgramData\chocolatey\bin;C:\wamp64\bin\mysql\mysql5.7.31\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\utilisateur\.cargo\bin;C:\Users\utilisateur\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\utilisateur\AppData\Local\Programs\Python\Python39\;C:\Users\utilisateur\AppData\Local\Microsoft\WindowsApps;F:\Programmes\PyCharm\bin;C:\Users\utilisateur\.dotnet\tools;C:\Users\utilisateur\AppData\Local\Programs\Microsoft VS Code\bin;C:\shaderc\bin;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.1\bin;C:\Users\utilisateur\AppData\Roaming\npm
+# makefile (from 'Makefile', line 86)
+CTAGS = ctags
+# environment
+COMPUTERNAME = JE-TE-VOIS
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 39)
+MY_LIBS = -L C:/SDL2-w64/lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
+# automatic
+^F = $(notdir $^)
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132722401289220976
+# environment
+QT_DEVICE_PIXEL_RATIO = auto
+# makefile (from 'Makefile', line 111)
+COMPILE.cxx = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -c $(INCLUDIR)
+# environment
+LOGONSERVER = \\JE-TE-VOIS
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = utilisateur
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 61)
+SRCEXTS = .c .cpp
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'Makefile', line 93)
+SPACE = $(EMPTY) $(EMPTY)
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = JE-TE-VOIS
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+OS = Windows_NT
+# makefile (from 'Makefile', line 42)
+CPPFLAGS = -Wall -std=c++17 -m64
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 45)
+LDFLAGS = 
+# environment
+USERDOMAIN_ROAMINGPROFILE = JE-TE-VOIS
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\utilisateur\AppData\Roaming
+# makefile (from 'Makefile', line 68)
+CFLAGS = -g -O2
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+PYCHARM COMMUNITY EDITION = F:\Programmes\PyCharm\bin;
+# makefile (from 'Makefile', line 106)
+SRC_CXX = $(filter-out %.c,$(SOURCES))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 87)
+CTAGSFLAGS = 
+# makefile (from 'Makefile', line 51)
+INCLUDIR = -I include -I C:/SDL2-w64/include
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'Makefile', line 113)
+LINK.cxx = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS)
+# makefile (from 'Makefile', line 92)
+EMPTY = 
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\UTILIS~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\2e80963eb57de8617399f1a9c33f8c17-1.67.2-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 69)
+CXXFLAGS = -g -O2
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 1801
+# makefile (from 'Makefile', line 104)
+SOURCES = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)/*,$(SRCEXTS))))
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+# variable set hash-table stats:
+# Load=124/1024=12%, Rehash=0, Collisions=29/200=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# include (key F:/Desktop/Programmation/Projets_CPP/PROJETS/Pop art generator/include, mtime 1625242547): 10 files, no impossibilities.
+# src (key F:/Desktop/Programmation/Projets_CPP/PROJETS/Pop art generator/src, mtime 1644849103): 16 files, no impossibilities.
+# . (key F:/Desktop/Programmation/Projets_CPP/PROJETS/Pop art generator, mtime 1653963192): 8 files, no impossibilities.
+
+# 34 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 128):
+	$(COMPILE.c) $< -o $@
+
+%.o: %.cpp
+#  recipe to execute (from 'Makefile', line 131):
+	$(COMPILE.cxx) $< -o $@
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+distclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 162):
+	$(RM) $(DEPS) TAGS
+
+# Not a target:
+src/SDL2_imageFilter.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/SDL2_gfxPrimitives.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/SDL2_rotozoom.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-05 15:29:26
+#  File has been updated.
+#  Successfully updated.
+
+objs: src/Logic.o src/RenderWindow.o src/SDL2_framerate.o src/SDL2_gfxPrimitives.o src/SDL2_imageFilter.o src/SDL2_rotozoom.o src/main.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 159):
+	del $(OBJS)
+
+# Not a target:
+src/SDL2_rotozoom.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Logic.o: src/Logic.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/Logic'
+#  Last modified 2022-02-14 09:31:43
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := src/Logic.o
+# automatic
+# * := src/Logic
+# automatic
+# < := src/Logic.cpp
+# automatic
+# + := src/Logic.cpp
+# automatic
+# % := 
+# automatic
+# ^ := src/Logic.cpp
+# a 
+utomatic
+# ? := src/Logic.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/19=11%
+#  recipe to execute (from 'Makefile', line 131):
+	$(COMPILE.cxx) $< -o $@
+
+# Not a target:
+src/SDL2_imageFilter.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/RenderWindow.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/SDL2_GFX.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: bin/executable
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 166):
+	@echo 'Generic Makefile for C/C++ Programs (gcmakefile) version 0.5'
+	@echo 'Copyright (C) 2007, 2008 whyglinux <whyglinux@hotmail.com>'
+	@echo
+	@echo 'Usage: make [TARGET]'
+	@echo 'TARGETS:'
+	@echo '  all       (=make) compile and link.'
+	@echo '  NODEP=yes make without generating dependencies.'
+	@echo '  objs      compile only (no linking).'
+	@echo '  tags      create tags for Emacs editor.'
+	@echo '  ctags     create ctags for VI editor.'
+	@echo '  clean     clean objects and the executable file.'
+	@echo '  distclean clean objects, the executable and dependencies.'
+	@echo '  show      show variables (for debug use only).'
+	@echo '  help      print this message.'
+	@echo
+	@echo 'Report bugs to <whyglinux AT gmail DOT com>.'
+
+# Not a target:
+src/SDL2_gfxPrimitives.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+show:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 185):
+	@echo 'PROGRAM     :' $(PROGRAM)
+	@echo 'SRCDIRS     :' $(SRCDIRS)
+	@echo 'HEADERS     :' $(HEADERS)
+	@echo 'SOURCES     :' $(SOURCES)
+	@echo 'SRC_CXX     :' $(SRC_CXX)
+	@echo 'OBJS        :' $(OBJS)
+	@echo 'COMPILE.c   :' $(COMPILE.c)
+	@echo 'COMPILE.cxx :' $(COMPILE.cxx)
+	@echo 'link.c      :' $(LINK.c)
+	@echo 'link.cxx    :' $(LINK.cxx)
+
+# Not a target:
+src/SDL2_framerate.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+yolo:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 197):
+	echo $(OBJS)
+
+# Not a target:
+include/SDL2_imageFilter.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/RenderWindow.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/Logic.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-14 09:33:35
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SDL2_gfxPrimitives.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/Logic.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/SDL2_framerate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/executable: src/Logic.o src/RenderWindow.o src/SDL2_framerate.o src/SDL2_gfxPrimitives.o src/SDL2_imageFilter.o src/SDL2_rotozoom.o src/main.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+#  recipe to execute (from 'Makefile', line 148):
+	$(LINK.cxx) $(OBJS) $(MY_LIBS) -o $@
+	@echo Type ./$@ to execute the program.
+
+ctags: include/SDL2_GFX.h include/SDL2_framerate.h include/SDL2_gfxPrimitives.h include/SDL2_gfxPrimitives_font.h include/SDL2_imageFilter.h include/SDL2_rotozoom.h include/Logic.hpp include/RenderWindow.hpp src/Logic.cpp src/RenderWindow.cpp src/SDL2_framerate.cpp src/SDL2_gfxPrimitives.cpp src/SDL2_imageFilter.cpp src/SDL2_rotozoom.cpp src/main.cpp
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 139):
+	$(CTAGS) $(CTAGSFLAGS) $(HEADERS) $(SOURCES)
+
+# Not a target:
+src/RenderWindow.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all objs tags ctags clean distclean help show
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/SDL2_framerate.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tags: include/SDL2_GFX.h include/SDL2_framerate.h include/SDL2_gfxPrimitives.h include/SDL2_gfxPrimitives_font.h include/SDL2_imageFilter.h include/SDL2_rotozoom.h include/Logic.hpp include/RenderWindow.hpp src/Logic.cpp src/RenderWindow.cpp src/SDL2_framerate.cpp src/SDL2_gfxPrimitives.cpp src/SDL2_imageFilter.cpp src/SDL2_rotozoom.cpp src/main.cpp
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 136):
+	$(ETAGS) $(ETAGSFLAGS) $(HEADERS) $(SOURCES)
+
+# Not a target:
+include/SDL2_rotozoom.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/SDL2_gfxPrimitives_font.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=36/1024=4%, Rehash=0, Collisions=0/114=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 70 / storage = 1004 B / avg = 14 B
+# current buf: size = 8174 B / used = 1004 B / count = 70 / avg = 14 B
+
+# strcache performance: lookups = 129 / hit rate = 45%
+# hash-table stats:
+# Load=70/8192=1%, Rehash=0, Collisions=0/129=0%
+# Finished Make data base on Mon May 30 22:14:45 2022
+
+ 
